@@ -6,8 +6,6 @@
 //  Copyright (c) 2014 Maciej Oczko. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 #import "MOAppDelegate.h"
 
 int main(int argc, char * argv[])
