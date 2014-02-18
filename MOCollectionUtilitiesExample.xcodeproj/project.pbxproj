@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		81086550D96310CB8B7469F7 /* MOCollectionUtilitiesStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810867EE7FA02A9CD534CF5C /* MOCollectionUtilitiesStackTests.m */; };
+		810866594C27C5457F988F87 /* MOCollectionUtilitiesSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086A257A55E72A81250E64 /* MOCollectionUtilitiesSetTests.m */; };
 		8108681561F62BC4752AF527 /* MOTestFixture.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086358601B21E6FF9090A6 /* MOTestFixture.m */; };
 		810869A87420E51AD8CB8219 /* MOCollectionUtilitiesDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810861A4065B3E29FA0FE1A9 /* MOCollectionUtilitiesDictionaryTests.m */; };
+		81086F3C0658038D726E3522 /* MOCollectionUtilitiesHashTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810868408D46AC1D00E07A0A /* MOCollectionUtilitiesHashTableTests.m */; };
 		A18FF07D18A95EFD0045D846 /* MOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FF07B18A95EFD0045D846 /* MOAppDelegate.m */; };
 		A18FF07E18A95EFD0045D846 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18FF07C18A95EFD0045D846 /* Images.xcassets */; };
 		A18FF08218A95F1E0045D846 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FF07F18A95F1E0045D846 /* main.m */; };
@@ -46,6 +48,8 @@
 		81086358601B21E6FF9090A6 /* MOTestFixture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOTestFixture.m; sourceTree = "<group>"; };
 		81086754C61272CEE483C630 /* MOTestFixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOTestFixture.h; sourceTree = "<group>"; };
 		810867EE7FA02A9CD534CF5C /* MOCollectionUtilitiesStackTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOCollectionUtilitiesStackTests.m; sourceTree = "<group>"; };
+		810868408D46AC1D00E07A0A /* MOCollectionUtilitiesHashTableTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOCollectionUtilitiesHashTableTests.m; sourceTree = "<group>"; };
+		81086A257A55E72A81250E64 /* MOCollectionUtilitiesSetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOCollectionUtilitiesSetTests.m; sourceTree = "<group>"; };
 		A18FF07A18A95EFD0045D846 /* MOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOAppDelegate.h; path = MOCollectionUtilitiesExample/MOAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		A18FF07B18A95EFD0045D846 /* MOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOAppDelegate.m; path = MOCollectionUtilitiesExample/MOAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		A18FF07C18A95EFD0045D846 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MOCollectionUtilitiesExample/Images.xcassets; sourceTree = SOURCE_ROOT; };
@@ -198,6 +202,8 @@
 				810864D38B1964677550DDF5 /* Fixtures */,
 				810861A4065B3E29FA0FE1A9 /* MOCollectionUtilitiesDictionaryTests.m */,
 				810867EE7FA02A9CD534CF5C /* MOCollectionUtilitiesStackTests.m */,
+				81086A257A55E72A81250E64 /* MOCollectionUtilitiesSetTests.m */,
+				810868408D46AC1D00E07A0A /* MOCollectionUtilitiesHashTableTests.m */,
 			);
 			name = MOCollectionUtilitiesTestsExample;
 			path = MOCollectionUtilitiesTests;
@@ -328,6 +334,8 @@
 				8108681561F62BC4752AF527 /* MOTestFixture.m in Sources */,
 				810869A87420E51AD8CB8219 /* MOCollectionUtilitiesDictionaryTests.m in Sources */,
 				81086550D96310CB8B7469F7 /* MOCollectionUtilitiesStackTests.m in Sources */,
+				810866594C27C5457F988F87 /* MOCollectionUtilitiesSetTests.m in Sources */,
+				81086F3C0658038D726E3522 /* MOCollectionUtilitiesHashTableTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

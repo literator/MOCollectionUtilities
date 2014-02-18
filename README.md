@@ -238,6 +238,12 @@ Or if you use Appcode simply click to install missing pods.
 
     #import <MOCollectionUtilities/MOCollectionUtilities.h>
 
+## Changelog
+
+#### 1.0.1
+
+* Added map, filter and without methods to NSSet and NSHashTable.
+
 ## License
 
 MOCollectionUtilities is available under the MIT license.

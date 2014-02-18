@@ -7,4 +7,8 @@
 
 @interface NSSet (MOUtilities)
 - (BOOL)isEmpty;
+
+- (instancetype)map:(id (^)(id object))block;
+- (instancetype)filter:(BOOL (^)(id object))block;
+- (instancetype)without:(NSArray *)elements;
 @end

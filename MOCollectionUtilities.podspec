@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name		= 'MOCollectionUtilities'
-	s.version	= '1.0.0'
+	s.version	= '1.0.1'
 	s.summary	= 'A set of useful utilities for common Foundation collections'
 	s.author	= { 'Maciej Oczko' => 'maciejoczko@gmail.com' }
 	s.social_media_url = 'https://twitter.com/MaciejOczko'	
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 	s.homepage	= 'http://literator.me'
 	s.source	= {
 		:git	=> 'https://github.com/literator/MOCollectionUtilities.git',
-		:tag	=> '1.0.0'
+		:tag	=> '1.0.1'
 	}
 	s.source_files	= 'MOCollectionUtilities/*'
 	s.platform	= :ios
